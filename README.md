@@ -1,4 +1,4 @@
-#Guess the Number Game with DOM Manipulation##
+# Guess the Number Game with DOM Manipulation##
 Welcome to the "Guess the Number" game, a beginner-friendly project that help me to learn JavaScript and DOM manipulation. In this project, I have create a simple game where the player guesses a random number. I have use HTML, CSS, and JavaScript to build the game, and along the way, i have gain hands-on experience with DOM (Document Object Model) manipulation.
 
 ##Screenshots
