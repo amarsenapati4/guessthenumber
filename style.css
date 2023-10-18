@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(39, 34, 34);
+}
+.headerbar {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px 0 10px 0;
+}
+.headerbar .btn {
+  padding: 0.75rem;
+  padding-left: 1.75rem;
+  padding-right: 1.75rem;
+  margin: 0 1rem 0 1rem;
+  border-radius: 0.5rem;
+  outline: none;
+  border: none;
+  text-align: center;
+  color: red;
+  cursor: pointer;
+  font-family: 'Press Start 2P';
+}
+.headerbar .btn:hover {
+  background-color: grey;
+}
+.headerbar p {
+  color: white;
+  margin: 0 0.5rem 0 0.5rem;
+  font-family: 'Press Start 2P';
+}
+.guessheading {
+  font-family: 'Press Start 2P';
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 3rem 0;
+}
+.number {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Press Start 2P';
+  font-size: 30px;
+  border: 1px solid white;
+  height: 0px;
+  margin: 8rem 0 8rem 0;
+}
+
+.questionmark {
+  border: 1px solid white;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  color: black;
+  background-color: white;
+}
+main {
+  width: 100%;
+  display: flex;
+}
+main .left {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+main .right {
+  width: 50%;
+}
+.left input {
+  width: 33%;
+  height: 5rem;
+  background-color: rgb(39, 34, 34);
+  border: 2px solid white;
+  color: white;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.left .btn {
+  padding: 1rem 2.5rem 1rem 2.5rem;
+  text-align: center;
+  font-family: 'Press Start 2P';
+  cursor: pointer;
+}
+.left .btn:hover {
+  background-color: grey;
+}
+.right {
+  color: white;
+  font-family: 'Press Start 2P';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  font-size: x-large;
+}
+
+@media (max-width: 768px) {
+  .headerbar {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .headerbar p {
+    font-size: 10px;
+  }
+  .guessheading {
+    font-size: 20px;
+  }
+  .right {
+    font-size: 10px;
+    justify-content: center;
+    gap: 4rem;
+  }
+  .left input {
+    width: 66%;
+  }
+  .left .btn {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+}
