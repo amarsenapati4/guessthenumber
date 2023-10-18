@@ -4,6 +4,9 @@ Welcome to the "Guess the Number" game, a beginner-friendly project that help me
 ## Screenshots
 ![Game Screenshot](game.png?raw=true 'Optional Title')
 
+## Live Demonstration
+The Game demo can be [viewed online here](https://guessthenamebyamar.netlify.app/).
+
 ## Getting Started
 Follow these steps to get started with the game:
 
